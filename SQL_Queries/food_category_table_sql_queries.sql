@@ -13,3 +13,18 @@ CREATE TABLE food_category(
         deleted_at DATETIME
 );
 
+/* SQL Insert Query */
+INSERT INTO food_category (category_name)
+VALUES
+	('Starters'),
+	('North Indian'),
+    ('South Indian'),
+    ('Chinese (Indian-style)'),
+    ('Street Food'),
+    ('Biryani'),
+    ('Tandoor / Kebabs'),
+    ('Pizza'),
+    ('Desserts & Sweets'),
+    ('Beverages'),
+    ('Seafood');
+
